@@ -17,6 +17,10 @@
 /**********************************************************************************************************************************************************/
 /* syl */
 /*******/
+
+.text-gris {
+	color: #8faec2;
+}
 .contact svg{
     align-self: center;
 	font-size: 1.5rem;
@@ -31,10 +35,59 @@
 }
 footer ul{
 	list-style: none;
+	padding: 0;
+}
+footer h3{
+	font-weight: 600;
+	font-size: 1.5rem;
 }
 .quickLink{
 	height: 80%;
 }
-.social li{
+.quickLink span, .services span{
+	position: relative;
+	bottom: 0.45rem;
+	left: -0.3rem;
+	font-size: 1.5rem;
+	font-weight: lighter;
+}
+.footerMainParent{
+ 	background: #033b4af3;
+}
+.footerMain{
+	background: center/contain url(../images/mapMonde.jpg)
+}
+.footerMain>div{
+ 	background: #033b4af3;
+}
+
+.social a{
+	display: block;
 	border-radius: 50px;
+	width: 2rem;
+	height: 2rem;
+}
+.social svg{
+	align-self: center;
+}
+
+.footerMain .card{
+	background: none;
+	border: none;
+}
+
+.Newsletter input{
+	border: none;
+	border-radius: 0;
+	background: #ffffff1b;
+}
+.Newsletter input::placeholder{
+	color: #ffffff90;
+	font-size: 0.9rem;
+	letter-spacing: 0.05rem;
+}
+.copyright{
+	background: #023341;
+	font-size: 0.9rem;
+	font-weight: 600;
 }
