@@ -17,7 +17,53 @@
 /**********************************************************************************************************************************************************/
 /* syl */
 /*******/
+.counterZoneParent{
+	position: relative;
+}
+.imageCounter{
+	height: 60vh;
+	overflow: hidden;
+}
+.imageCounter img{
+	position:relative;
+	bottom: 23%;
+}
+.counterZone{
+	width: 65%;
+	position: absolute;
+	top:13%;
+	right: 0;
+}
+.counterZone svg{
+	font-size: 2.5rem;
+}
+.counterText p:first-child{
+	font-size: 2rem;
+	font-weight:700;
+}
+.chimiste{
+	background: center url(../images/chimiste.jpg)
+}
+.chimiste>div{
+	background: #033b4af3;
+}
+.chimiste .btn{
+	border-radius: unset;
+}
 
+.chimiste .card{
+	background: none;
+	border-radius: 0;
+}
+.chimiste .card-body p{
+	font-size: 0.95rem;
+}
+
+.chimiste .card svg{
+	font-size: 3rem;
+}
+
+/*****************************************************footer****************************************************/
 .text-gris {
 	color: #8faec2;
 }
